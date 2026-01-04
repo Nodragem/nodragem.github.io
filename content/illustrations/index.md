@@ -1,7 +1,7 @@
 +++
 date = '2025-12-13T11:22:46Z'
 draft = false
-title = 'Gallery of Illustrations'
+title = 'Illustrations'
 lightgallery = true
 +++
 

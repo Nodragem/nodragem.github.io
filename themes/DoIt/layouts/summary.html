@@ -17,15 +17,16 @@
     {{- end -}}
 
     {{- /* Title */ -}}
+    <div class="title-block">
     <h1 class="single-title">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h1>
 
     {{- /* Meta */ -}}
     <div class="post-meta">
-        <span class="post-author">
+        {{/*  <span class="post-author">
             {{- partial "meta/author" . }}
-        </span>
+        </span>  */}}
 
         {{- with .Site.Params.dateFormat | default "2006-01-02" | .PublishDate.Format -}}
             &nbsp;<span class="post-publish">
@@ -38,6 +39,7 @@
             {{- T "includedIn" | safeHTML -}}
         </span>
     {{- end -}}
+    </div>
     
     {{- $categories := slice -}}
     {{- range .Params.categories -}}

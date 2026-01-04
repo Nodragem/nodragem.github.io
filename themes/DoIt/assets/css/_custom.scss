@@ -57,6 +57,18 @@
     text-shadow: 0px 1px 1px #4e5e9b;
 }
 
+.title-block {
+  margin-top: -1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post-meta {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .featured-image-preview {
     width: 100%;
     padding: 30% 0 0;
