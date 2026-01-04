@@ -12,7 +12,7 @@
 
   a:active,
   a:hover {
-    color: if($light, $global-link-hover-color, $single-link-hover-color);
+    color: if($light, $single-link-hover-color, $single-link-hover-color);
     .dark & {
       color: if($dark, $global-link-hover-color, $single-link-hover-color);
     }

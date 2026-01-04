@@ -701,6 +701,7 @@ ul {
   --selection-bgColor: #35a6f740;
   --button-default-bgColor-rest: #f0f0f0;
   --button-default-bgColor-hover: #f0f0f0;
+  --header-title-text-color: #e6edf3;
   /* ========== primitives ========== */
 }
 
@@ -730,6 +731,7 @@ html.dark {
   --global-link-hover-color: #b6cee4;
   --global-border-color: var(--borderColor-default);
   --selection-color: var(--selection-bgColor);
+  --header-title-text-color: #e6edf3;
   --header-background-color: #6498d8;
   --header-hover-color: #ffffff;
   --header-delimiter: var(--fgColor-default);

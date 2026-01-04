@@ -179,7 +179,7 @@ header {
 
       a.active {
         font-weight: 900;
-        color: $header-hover-color;
+        color: white;
         font-size: larger;
       }
     }
@@ -221,7 +221,7 @@ header {
 
         span {
           display: block;
-          background: $global-font-color;
+          background: $header-title-text-color;
           width: 1.5rem;
           height: 2px;
           @include border-radius(3px);
@@ -255,7 +255,7 @@ header {
     .menu {
       text-align: center;
       background: $header-background-color;
-      border-top: 2px solid $global-border-color;
+      border-top: 2px solid $header-title-text-color;
       display: none;
       padding-top: 0.5rem;
       @include box-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));

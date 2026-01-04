@@ -26,13 +26,27 @@
 }
 
 
-.menu-inner {
+.menu-inner, #menu-mobile {
     font-family: GloriaH;
     font-size: larger;
 }
 
+.menu-item, .menu-item::before, .menu-item::after{
+    color: $header-title-text-color;
+}
+
+.menu-item:hover, .menu-item:active{
+    color: #b6cee4;
+}
+
+.header-title a {
+    font-family: LondonP;
+    color: $header-title-text-color;
+}
+
 .header-title {
     font-family: LondonP;
+    color: $header-title-text-color;
 }
 
 .featured-image-preview {
