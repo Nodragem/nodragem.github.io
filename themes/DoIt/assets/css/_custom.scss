@@ -16,6 +16,12 @@
   src: url(/fonts/london-presley.ttf) format('truetype');; /* url of the font */
 }
 
+.top-logo {
+  filter: drop-shadow(0px 1px 1px #4e5e9b);
+  position: relative;
+  top:-5px;
+}
+
 .home[posts] {
   .home-avatar img {
     width: 20rem;
@@ -29,6 +35,7 @@
 .menu-inner, #menu-mobile {
     font-family: GloriaH;
     font-size: larger;
+    text-shadow: 0px 1px 1px #4e5e9b;
 }
 
 .menu-item, .menu-item::before, .menu-item::after{
@@ -47,6 +54,7 @@
 .header-title {
     font-family: LondonP;
     color: $header-title-text-color;
+    text-shadow: 0px 1px 1px #4e5e9b;
 }
 
 .featured-image-preview {
