@@ -68,9 +68,9 @@
         {{- /* Meta */ -}}
         <div class="post-meta">
             <div class="post-meta-line">
-                <span class="post-author">
+                {{/*  <span class="post-author">
                     {{- partial "meta/author.html" . }}
-                </span>
+                </span>  */}}
                 {{- with .Params.categories | or .Params.series -}}
                     &nbsp;<span class="post-category">
                         {{- T "includedIn" | safeHTML -}}
@@ -111,7 +111,7 @@
                 {{- with .Site.Params.dateformat | default "2006-01-02" | .PublishDate.Format -}}
                     {{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "calendar-alt") }}&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
                 {{- end -}}
-                {{- if $params.enableLastMod | default true -}}
+                {{- if $params.enableLastMod | default false -}}
                     {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
                         {{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "edit") }}&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
                     {{- end -}}
