@@ -12,8 +12,8 @@ type = "page"
 {{% tab title="John Space" %}}
 ![alt text](john-space-website-header.png)
 
-{{< showcase title="John Space - Episode #02 part-1" summary="John is scientific research as a super fertilized giant rubus is going to take over the planet ..." image="john-space_episode02-part1/thumbnail.jpg" link="john-space_episode02-part1" >}}
-{{< showcase title="John Space - Episode #01" summary="John Space infiltrated a high security mine to collected photographs of sphynark activities ... " image="john-space_episode01/website-cover.webp" link="john-space_episode01" >}}
+{{< showcase title="John Space - Episode #02 part-1" summary="John has to stop his scientific research as a super fertilizer goes out of control and a giant rubus is going to take over the planet ..." image="john-space_episode02-part1/thumbnail.jpg" link="john-space_episode02-part1" >}}
+{{< showcase title="John Space - Episode #01" summary="John Space infiltrated a high security mine to collect photographs of the sphynarks' suspicious activities ... " image="john-space_episode01/website-cover.webp" link="john-space_episode01" >}}
 {{< showcase title="John Space - Spin-off #01" summary="A light hearted, humourous and retro take on the John Space universe." image="john-space_spinoff_01/img2.webp" link="john-space_spinoff_01" >}}
 
 {{% /tab %}}
