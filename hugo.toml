@@ -3,6 +3,7 @@ baseURL = "https://nodragem.github.io/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
+enableEmoji = true
 title = ""
 logo = "logo.png"
 
