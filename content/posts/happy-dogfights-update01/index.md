@@ -1,6 +1,6 @@
 +++
 date = '2019-12-12T21:27:08+01:00'
-draft = true
+draft = false
 title = 'Happy Dogfights: Devlog 01'
 featuredImage = "prabbit-aviator-banner.png"
 +++
